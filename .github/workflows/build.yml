@@ -1,7 +1,7 @@
 name: build-frontend-image
 on:
     push:
-        branches: [mosona-web-fix]
+        branches: [mosona-web-fix, private]
     workflow_dispatch:
 permissions:
     contents: read
